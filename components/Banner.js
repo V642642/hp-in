@@ -17,13 +17,13 @@ export default function Banner() {
       </div>
 
       <div className="absolute flex items-start justify-center flex-col gap-2 font-primary top-[25%] px-2 lg:ml-[10%] 2xl:ml-[15%] md:ml-[20%]">
-        <h2 className="text-[38px] leading-[1px] sm:leading-[58px] sm:text-[55px] text-white font-bold">
+        <p className="text-[38px] leading-[1px] sm:leading-[58px] sm:text-[55px] text-white font-bold">
           PLUG-IN FOR
-        </h2>
-        <h2 className="text-[38px] sm:leading-[58px] sm:text-[55px] text-white font-bold">
+        </p>
+        <p className="text-[38px] sm:leading-[58px] sm:text-[55px] text-white font-bold">
           FASTER HIRING
-        </h2>
-        <p className="text-white  text-[16px]  flex items-start justify-center flex-col">
+        </p>
+        <h1 className="text-white  text-[16px]  flex items-start justify-center flex-col">
           <span className="hidden sm:block">
             Engage with a large pool of qualified talent through our{" "}
           </span>
@@ -35,7 +35,7 @@ export default function Banner() {
             Marketplace of Recruitment Agencies
           </span>
           <span></span>
-        </p>
+        </h1>
 
         <Link
           href="/request-a-demo"

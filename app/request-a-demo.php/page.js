@@ -1,13 +1,13 @@
-import ContactUsNewlayout from '@/components/ContactUs/ContactUsNewlayout'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import RequestLayout from '@/components/RequestDemo/RequestLayout'
 import React from 'react';
 
 export const metadata = {
-  title: "Contact - Us  hiringplug™ recruitment Marketplace",
+  title: "Request a Demo - hiringplug™ recruitment Marketplace",
   description:
-    "Contact us - contact  hiringplug AI marketplace of professional recruiters to acquire talent faster  ",
-  Keywords: "online recruitment platform",
+    "Request a demo as an employer on hiringplug AI marketplace of professional recruiters to acquire talent faster ",
+  Keywords: "Recruitment Agencies, Online Recruitment Marketplace",
   openGraph: {
     title: "HiringPlug™",
     description:
@@ -16,21 +16,23 @@ export const metadata = {
     siteName: "Next.js",
     images: [
       {
-        url: "/Techhrin2021.jpeg",
+        url: "/social-banner.jpg",
         width: 800,
         height: 600,
       },
+      
     ],
     locale: "en-US",
     type: "website",
   },
 };
 
+
 export default function page() {
   return (
     <>
     <Header />
-    <ContactUsNewlayout />
+    <RequestLayout />
     <Footer />
     </>
   )

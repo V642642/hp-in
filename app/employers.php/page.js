@@ -10,9 +10,9 @@ import Header from "@/components/Header";
 import React from "react";
 
 export const metadata = {
-  title: "online recruitment platform - hiringplug™ recruitment Marketplace",
+  title: "online recruitment platform for employers - hiringplug™ recruitment Marketplace",
   description:
-    "Best online recruitment platform to engage with multiple Recruiting agencies to fulfil job requirements- HiringPlug™",
+    "Join as an employer partner with hiringplug AI marketplace of professional recruiters to acquire top talent faster ",
   Keywords: "online recruitment platform",
   openGraph: {
     title: "HiringPlug™",

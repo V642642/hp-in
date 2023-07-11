@@ -1,10 +1,11 @@
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import CA from "../../public/images/canada.webp";
-import IN from "../../public/images/india-flag.webp";
+// const CA = dynamic(() => import("../../public/images/canada.webp"));
+// const IN = dynamic(() => import("../../public/images/india-flag.webp")) ;
 
 export default function AboutUsContent() {
 
@@ -153,8 +154,8 @@ export default function AboutUsContent() {
       <p className="text-[26px]  font-semibold w-full text-center sm:text-[20px] tracking-[0.5px] font-primary">
           INDIA{" "}
           <Image
-            src={IN}
-            alt={IN}
+            src={`/images/india-flag.webp`}
+            alt={`/images/india-flag.webp`}
             width={25}
             className="border w-[25px] border-white inline-block object-contain"
             
@@ -172,8 +173,8 @@ export default function AboutUsContent() {
         <p className="text-[26px] font-semibold w-full mt-4 text-center sm:text-[20px] tracking-[0.5px] font-primary">
           CANADA{" "}
           <Image
-            src={CA}
-            alt={CA}
+            src={`/images/canada.webp`}
+            alt={`canada`}
             width={25}
             className="border w-[25px] border-white inline-block object-contain"
             

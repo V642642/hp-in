@@ -1,9 +1,10 @@
-import AboutusBanner from "@/components/Aboutus/AboutusBaneer";
-import AboutUsContent from "@/components/Aboutus/AboutUsContent";
-import MyGallery from "@/components/Aboutus/MyGallery";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import React from "react";
+import dynamic from "next/dynamic";
+const Header =   dynamic(() => import("@/components/Header"));
+const AboutusBanner =   dynamic(() => import("@/components/Aboutus/AboutusBaneer"));
+const AboutUsContent =   dynamic(() => import("@/components/Aboutus/AboutUsContent"));
+const MyGallery =   dynamic(() => import("@/components/Aboutus/MyGallery"));
+const Footer =   dynamic(() => import("@/components/Footer"));
+
 
 export default function page() {
   return (

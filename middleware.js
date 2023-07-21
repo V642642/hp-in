@@ -6,7 +6,11 @@ export async function middleware(req) {
     return NextResponse.redirect(process.env.NEXT_PUBLIC_CA_URL);
   } else if (req.geo?.country === "IN") {
     return NextResponse.redirect(process.env.NEXT_PUBLIC_IN_URL);
-  } else {
+  }else if (req.geo?.country === "RU") {
+    return NextResponse.redirect(process.env.NEXT_PUBLIC_CA_URL);
+  }else {
     return NextResponse.next();
   }
 }
+
+
